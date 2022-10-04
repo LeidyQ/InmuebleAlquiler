@@ -1,0 +1,116 @@
+html {
+    background-color: transparent; 
+    font-family: 'Vollkorn', serif;
+
+   
+}
+
+body {
+    min-width: 420px;
+    display: grid;
+    background-color:#384450; 
+    background-image: url("../img/");
+    
+}
+
+nav  a navbar-brand{
+      background-color:#03e9f4; 
+}
+
+
+
+.card-body .form-group {
+  position: relative;
+  text-align: justify-all;
+     font-size: 20px;
+   max-width: 500px;
+   height: 100px;
+  
+}
+
+
+.main, .card-body {
+  position:   absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -6%);
+  background: rgba(0,0,0,.8);
+  box-sizing: initial;
+  box-shadow: 0 30px 30px rgba(0,0,0,.6);
+  border-radius: 30px;
+  border-style: outset;
+  
+  
+}
+
+
+
+
+.card-body h2 {
+  margin: 0 0 60px;
+  padding: 0;
+  color: #03e9f4;
+  text-align: center;
+  
+}
+
+
+
+
+
+.card-body .form-group input {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #03e9f4;
+  outline: none;
+  background: transparent;
+}
+
+
+.card-body .form-group label {
+  position: static;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 15px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px white;
+  text-transform: uppercase;
+  background-color: transparent;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.card-body .form-group input:focus ~ label,
+.card-body .form-group input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 20px;
+}
+
+
+
+.card-body form btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+
+
+

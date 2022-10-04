@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+        <link href="css/inmueble.css" rel="stylesheet">
+        <title>Registrar un Inmueble</title>
+    </head>
+    <body>
+    <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Registrar Inmueble</a>
+        </nav>
+       
+        <main class="p-5 d-flex justify-content-center">
+            <div class="card sizeDiv">
+                <div class="card-body">
+                    <form id="form-register-inmueble" class="pb-4">
+                        <div class="form-group">
+                            <label for="input-tipo_i">Tipo de Inmueble</label>
+                            <input type="text" class="form-control" id="input-tipo_inmueble" placeholder="Tipo de Inmueble" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-n_habitaciones">Numero de Habitaciones</label>
+                            <input type="number" class="form-control" id="input-n_habitaciones" placeholder="Numero de Habitaciones" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-n_banos">Numero de Baños</label>
+                            <input type="number" class="form-control" id="input-n_banos" placeholder="Numero de Baños" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-direccion_i">Direccion</label>
+                            <input type="text" class="form-control" id="input-direccion_i" placeholder="Direccion" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-patio">Patio</label>
+                            <input type="text" class="form-control" id="input-patio" placeholder="Patio" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-parqueadero">Parqueadero</label>
+                            <input type="text" class="form-control" id="input-parqueadero" placeholder="Parqueadero" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-telefono_i">Telefono</label>
+                            <input type="text" class="form-control" id="input-telefono_i" placeholder="Telefono" required>
+                        </div>
+               
+                        <div class="form-group">
+                            <label for="input-ciudad_i">Ciudad</label>
+                            <input type="text" class="form-control" id="input-ciudad_i" placeholder="Ciudad" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-comuna_i">Comuna</label>
+                            <input type="text" class="form-control" id="input-comuna_i" placeholder="Comuna" required>
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <label for="input-valor_alquiler">Valor Alquiler</label>
+                            <input type="number" class="form-control" id="input-valor_alquiler" placeholder="Valor Alquiler" required>
+                        </div>
+                        
+                        <br><input type="submit" class="btn btn-primary" id="register-btn" value="Registrar inmueble" /> </br>
+                        
+                    </form>
+                    <div id="register-error" class="alert alert-danger d-none" role="alert"></div>
+                    <a href="index.html">¿Ya tienes cuenta? Iniciar sesión</a>
+                </div>
+            </div> 
+        </main>
+    </body>
+</html>
